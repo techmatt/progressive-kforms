@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="mLibSource.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="vizzer.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="modelDatabase.cpp">
+      <Filter>database</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="mLibInclude.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="vizzer.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="modelDatabase.h">
+      <Filter>database</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="core">
+      <UniqueIdentifier>{31d5404d-e080-493f-80cc-1b88ece006b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="database">
+      <UniqueIdentifier>{a41802da-fb24-4401-afd5-86198848a9de}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
